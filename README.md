@@ -13,6 +13,10 @@ Either run
 php composer.phar require --prefer-dist mrmuminov/yii2-print-page-generator "*"
 ```
 
+```
+composer require --prefer-dist mrmuminov/yii2-print-page-generator "*"
+```
+
 or add
 
 ```
