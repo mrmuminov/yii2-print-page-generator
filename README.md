@@ -9,11 +9,11 @@ The preferred way to install this extension is through [composer](http://getcomp
 
 Either run
 
-```
+```bash
 php composer.phar require --prefer-dist mrmuminov/yii2-print-page-generator "*"
 ```
 
-```
+```bash
 composer require --prefer-dist mrmuminov/yii2-print-page-generator "*"
 ```
 
@@ -29,7 +29,8 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, simply use it in your code by:
 
 ```php
-<?= \mrmuminov\printpagegenerator\AutoloadExample::widget(); ?>```
+<?= \mrmuminov\printpagegenerator\AutoloadExample::widget(); ?>
+```
