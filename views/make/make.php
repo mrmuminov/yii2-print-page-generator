@@ -97,11 +97,10 @@ let selected;
 let page = document.getElementById('page');
 let pageWidth = $('.print-page-generator #page-width');
 let pageHeight = $('.print-page-generator #page-height');
+
 $('.print-page-generator .on-change-handle').on('change', () => {
-    page.css({
-        width: parseFloat(pageWidth.val()) + 'mm',
-        height: parseFloat(pageHeight.val()) + 'mm',
-    })
+    page.style.width = parseFloat(pageWidth.val()) + 'mm'
+    page.style.height = parseFloat(pageHeight.val()) + 'mm'
 })
     
     
